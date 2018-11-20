@@ -5,7 +5,7 @@
   margin-right: auto;
   font-size: 20px;
   display: table;
-  /* padding: 15px; */
+  padding: 15px;
 }
 
 .col {
@@ -42,6 +42,7 @@
 }
 
 .box-2 {
+  display: table;
   clear: left;
   background-color: #FF1493;
   max-width: 100%;
@@ -79,7 +80,7 @@ h1, h2 {
   font-weight: bold;
   float: right;
   margin-top: 250px;
-  padding-right: 10px;
+  padding-right: 15px;
   display: inline-block;
 }
 
@@ -88,15 +89,18 @@ h1, h2 {
  float: right;
  width: 400px;
  background-color: rgba(138, 43, 226, .8);
- margin-top: 55px;
+ margin-top: -55px;
  position: static;
  display: inline-block;
+}
+
+.lastBox p {
+  padding: 10px;
 }
 
 .space {
   float: left;
   width: 60%;
-  /*
 }
 
 h2 {
